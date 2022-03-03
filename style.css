@@ -53,10 +53,12 @@ body {
   flex-wrap: wrap;
   padding: 4px 60px 0px;
   column-gap: 1px;
+  gap: 10px;
 }
 
 .card {
   position: relative;
+  width: calc(10% - 10px);
 }
 
 .card > .user-badge {
