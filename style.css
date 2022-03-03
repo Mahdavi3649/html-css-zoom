@@ -50,19 +50,20 @@ body {
   height: calc(100vh - 130px);
   width: 100vw;
   display: flex;
+  justify-content: center;
   flex-wrap: wrap;
-  padding: 4px 60px 0px;
-  gap: 10px;
+  padding: 0px 80px;
+  gap: 3px;
 }
 
 .card {
   position: relative;
-  width: calc(14% - 8px);
+  width: calc(14% - 15px);
 }
 
 .card > .user-badge {
   position: absolute;
-  bottom: 15px;
+  bottom: 5px;
   color: var(--title-icon);
   background-color: var(--light-gray);
   padding: 3px;
