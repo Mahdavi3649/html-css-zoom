@@ -51,18 +51,17 @@ body {
   width: 100vw;
   display: flex;
   flex-wrap: wrap;
-  justify-content: space-evenly;
   padding: 4px 60px 0px;
+  column-gap: 1px;
 }
 
 .card {
   position: relative;
-  width: 10%;
 }
 
 .card > .user-badge {
   position: absolute;
-  bottom: 8px;
+  bottom: 15px;
   color: var(--title-icon);
   background-color: var(--light-gray);
   padding: 3px;
