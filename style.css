@@ -1,0 +1,33 @@
+:root {
+  --dark-gray: #222222;
+  --light-gray: #4a4a4a;
+  --share-color: #4bc800;
+  --end-color: #de2119;
+  --title-icon: #fffff4;
+  --bg-color: #000000;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.site-header {
+  background-color: black;
+}
+
+.head-container {
+  display: flex;
+  justify-content: flex-end;
+  padding: 8px;
+}
+
+.view,
+.maximize {
+  color: var(--title-icon);
+  background-color: var(--light-gray);
+  margin-right: 12px;
+  padding: 4px;
+  border-radius: 5px;
+}
