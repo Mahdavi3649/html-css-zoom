@@ -40,14 +40,38 @@ body {
   margin-right: 12px;
   padding: 4px;
   border-radius: 5px;
+  align-self: center;
 }
 /* End-header */
 
 /* main */
 .site-main {
-  background-color: palegreen;
-  height: calc(100% - 130px);
+  background-color: var(--bg-color);
+  height: calc(100vh - 130px);
+  width: 100vw;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  padding: 4px 60px 0px;
 }
+
+.card {
+  position: relative;
+  width: 10%;
+}
+
+.card > .user-badge {
+  position: absolute;
+  bottom: 8px;
+  color: var(--title-icon);
+  background-color: var(--light-gray);
+  padding: 3px;
+}
+
+img {
+  max-width: 100%;
+}
+
 /* End-main */
 
 /* footer */
